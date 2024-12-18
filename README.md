@@ -1,6 +1,6 @@
 # CryptExams
 
-A robust and scalable worker designed to process results efficiently in a distributed environment. This worker is built to handle high loads and ensure accurate data processing for real-time applications.
+CryptExams is a cryptographically secure examination system designed to ensure the integrity and confidentiality of online exams. By utilizing technologies such as MERN, TypeScript, Redis, and public-key cryptography, the system addresses key challenges in exam security. It prevents unauthorized access to exam questions through question encryption and Shamir's Secret Sharing. During the exam, student submissions are authenticated using private keys and processed by a worker for real-time result verification. Negative responses trigger an immediate system shutdown, while verified answers are published publicly for transparency. The system ensures secure, scalable, and transparent examination processes.
 
 ## Features
 
